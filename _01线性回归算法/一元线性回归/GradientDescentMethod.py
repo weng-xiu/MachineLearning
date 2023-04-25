@@ -70,8 +70,8 @@ print("w is: ", w)
 print("b is: ", b)
 cost = compute_cost(w, b, data)
 print("cost is: ", cost)
-# plt.plot(cost_list)
-# plt.show()
+plt.plot(cost_list)
+plt.show()
 
 # ------------6. 画出拟合曲线-------------------------
 plt.scatter(x, y)
